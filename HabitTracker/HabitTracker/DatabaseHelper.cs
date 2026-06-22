@@ -19,8 +19,7 @@ public class DatabaseHelper
                     habitId INTEGER PRIMARY KEY AUTOINCREMENT, habitName TEXT, habitQuantity INTEGER, date TEXT)";
 
             tableCommand.ExecuteNonQuery();
-
-            connection.Close();
+            
         }
 
     }
@@ -37,29 +36,43 @@ public class DatabaseHelper
         Console.WriteLine("Enter the Habit Quantity: ");
         int habitQuantity = int.Parse(Console.ReadLine());
         Console.WriteLine("""Date for the habit? Enter "today" for today, or another date.""");
-        string? habitDate = Console.ReadLine(); 
-        Habit habit = new Habit(1, habitName ?? "Placeholder Name", habitQuantity, habitDate ?? "Placeholder Date");
-        
-        string connectionString = "DataSource=habitTracker.db";
+        string? habitDate = Console.ReadLine();
 
+        var habit = new Dictionary<string, object>
+        {
+            { "habitName", habitName },
+            { "habitQuantity", habitQuantity },
+            { "date", habitDate },
+        };
+        
+        
+        string createQuery = @"INSERT INTO Habits (habitName, habitQuantity, date) VALUES ($habitName, $habitQuantity, $habitDate)";
+        
+        Execute(createQuery, habit);
+        
+        return "Habit created";
+    }
+
+    public void Execute(string sql, Dictionary<string, object> parameters)
+    {
+        string connectionString = "DataSource=habitTracker.db";
+        
         using (var connection = new SqliteConnection(connectionString))
         {
             connection.Open();
-            var tableCommand = connection.CreateCommand();
 
-            tableCommand.CommandText = 
-                @"INSERT INTO Habits VALUES ($habitName, $habitQuantity, $habitDate)";
+            var command = connection.CreateCommand();
 
-            tableCommand.Parameters.AddWithValue("$habitName", habitName);
-            tableCommand.Parameters.AddWithValue("$habitQuantity", habitQuantity);
-            tableCommand.Parameters.AddWithValue("$habitDate", habitDate);
+            command.CommandText = sql;
 
-            tableCommand.ExecuteNonQuery();
+            foreach (var param in parameters)
+            {
+                command.Parameters.AddWithValue(param.Key, param.Value);
+            }
+            
 
-            connection.Close();
+            command.ExecuteNonQuery();
         }
-        
-        return "Habit created";
     }
 
     public string UpdateHabit()
