@@ -27,9 +27,6 @@ public class DatabaseHelper
     }
 
     
-    
-    // Methods (Just using basic for now, need to update to DB methods)
-
 
     public void Execute(string sql, Dictionary<string, object> parameters)
     {
