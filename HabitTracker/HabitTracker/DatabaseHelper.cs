@@ -114,10 +114,6 @@ public class DatabaseHelper
             }
             
         }
-       
-
-        
-      
 
         var habit = new Dictionary<string, object>
         { // input variables are transformed to the placeholder ones for SQL query -- habitDate -> $date
