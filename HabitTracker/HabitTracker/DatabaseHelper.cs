@@ -4,14 +4,6 @@ using Microsoft.Data.Sqlite;
 namespace HabitTracker;
 
 
-// TODO: Date Validation (Research this) 
-// TODO: Test CRUD Functions
-// TODO: Fix return values to actually return if command was successful
-
-// TODO: Parameterized Queries
-// TODO: Add Unit testing (xUnit)?
-
-
 public class DatabaseHelper
 {
 
