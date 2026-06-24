@@ -1,6 +1,16 @@
+using System.Globalization;
 using Microsoft.Data.Sqlite;
 
 namespace HabitTracker;
+
+
+// TODO: Date Validation (Research this) 
+// TODO: Test CRUD Functions
+// TODO: Fix return values to actually return if command was successful
+
+// TODO: Parameterized Queries
+// TODO: Add Unit testing (xUnit)?
+
 
 public class DatabaseHelper
 {
@@ -76,13 +86,38 @@ public class DatabaseHelper
         Console.WriteLine("Enter the Habit Name: ");
         string? habitName = Console.ReadLine();
         Console.WriteLine("Enter the Habit Quantity: ");
-        int habitQuantity = int.Parse(Console.ReadLine());
-        Console.WriteLine("""Date for the habit? Enter "today" for today, or another date.""");
+        int habitQuantity = 0;
+
+        if (int.TryParse(Console.ReadLine(), out int habitQuantityResult))
+        {
+            habitQuantity = habitQuantityResult;
+            
+        }
+        Console.WriteLine("""Date for the habit? Enter "today" for today, or another date. (Format: MM/dd/yyyy)""");
         string? habitDate = Console.ReadLine();
+        string dateFormat = "MM/dd/yyyy";
+
         if (habitDate == "today")
         {
-            habitDate = Convert.ToString(DateTime.Now);
+            habitDate = DateTime.Now.ToString("MM/dd/yyyy");
         }
+        else
+        {
+            DateTime? validDate = CheckIfValidDate(habitDate);
+
+            while (validDate == null)
+            {
+                Console.WriteLine("Enter a valid date (MM/dd/yyyy)");
+                habitDate = Console.ReadLine();
+                validDate = CheckIfValidDate(habitDate);
+
+            }
+            
+        }
+       
+
+        
+      
 
         var habit = new Dictionary<string, object>
         { // input variables are transformed to the placeholder ones for SQL query -- habitDate -> $date
@@ -103,7 +138,12 @@ public class DatabaseHelper
     {
         string updateQuery = "";
         Console.WriteLine("Enter the ID of the habit you would like to update: ");
-        int targetHabitId = int.Parse(Console.ReadLine());
+        int targetHabitId = 0;
+        if (int.TryParse(Console.ReadLine(), out int idResult))
+        {
+            targetHabitId = idResult;
+        }
+
         Console.WriteLine("What would you like to update on this habit?");
         Console.WriteLine("1. Habit Name");
         Console.WriteLine("2. Habit Quantity");
@@ -122,7 +162,11 @@ public class DatabaseHelper
                 break;
             case "2": // Update Habit Quantity
                 Console.WriteLine("Enter the new habit quantity: ");
-                int newHabitQuantity = int.Parse(Console.ReadLine() ?? "0");
+                int newHabitQuantity = 0;
+                if (int.TryParse(Console.ReadLine(), out int newHabitQuantityResult)) // Do null check, output as result
+                {
+                    newHabitQuantity = newHabitQuantityResult;
+                }
                 updateQuery = @"UPDATE Habits SET habitQuantity = $newHabitQuantity WHERE habitId = $targetHabitId";
                 var updateQuantityParams = new Dictionary<string, object>
                     { { "$targetHabitId", targetHabitId }, { "$newHabitQuantity", newHabitQuantity} };
@@ -149,7 +193,12 @@ public class DatabaseHelper
         string query = @"DELETE FROM Habits WHERE habitId = $targetHabitId";
         
         Console.WriteLine("Enter the ID of the habit you would like to delete: ");
-        int targetHabitId = int.Parse(Console.ReadLine());
+        int targetHabitId = 0;
+        if (int.TryParse(Console.ReadLine(), out int targetHabitIdresult))
+        {
+            targetHabitId = targetHabitIdresult;
+            
+        }
         var deleteParams = new Dictionary<string, object> { { "$targetHabitId", targetHabitId } };
         Execute(query, deleteParams);
 
@@ -186,6 +235,20 @@ public class DatabaseHelper
             
         }
         
+    }
+
+    public DateTime? CheckIfValidDate(string dateInput)
+    {
+        string dateFormat = "MM/dd/yyyy";
+        bool isValid = DateTime.TryParseExact(dateInput, dateFormat, CultureInfo.InvariantCulture, DateTimeStyles.None,
+            out DateTime parsedDate);
+
+        if (isValid)
+        {
+            return parsedDate;
+        }
+        
+        return null;
     }
 
     public void GetAllHabits()
