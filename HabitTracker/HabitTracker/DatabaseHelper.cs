@@ -190,10 +190,6 @@ public class DatabaseHelper
         return "Habit Deleted";
     }
     
-    
-    
-
-
     public void ExecuteReader(string sql)
     {
         string connectionString = "DataSource=habitTracker.db";
@@ -235,7 +231,7 @@ public class DatabaseHelper
         
         return null;
     }
-
+    
     public void GetAllHabits()
     {
         string query = @"SELECT * FROM Habits";
