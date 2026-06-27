@@ -6,202 +6,28 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
-  <component name="CMakeProjectFlavorService">
-    <option name="flavorId" value="CMakePlainProjectFlavor" />
-  </component>
   <component name="CMakeSettings">
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="524b322b-b213-46fc-810e-8b498f4091df" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.HabitTracker/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HabitTracker/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.HabitTracker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HabitTracker/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HabitTracker/DatabaseHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HabitTracker/DatabaseHelper.cs" afterDir="false" />
-    </list>
+    <list default="true" id="524b322b-b213-46fc-810e-8b498f4091df" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DpaMonitoringSettings">
-    <option name="firstShow" value="false" />
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/HabitTracker/DatabaseHelper.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/HabitTracker/Habit.cs" root0="FORCE_HIGHLIGHTING" />
-  </component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
-  <component name="NextEditCompletionFeaturesState">
-    <decayedCancelled>
-      <entry key="MS100" value="1.0000000000000713" />
-      <entry key="MS500" value="1.0056342813329673" />
-      <entry key="S2" value="2.006786205744808" />
-      <entry key="S5" value="3.928515870219089" />
-      <entry key="S10" value="5.189546434580503" />
-      <entry key="S30" value="6.327811716713406" />
-      <entry key="S60" value="6.762310697001196" />
-      <entry key="M2" value="7.543473981893614" />
-      <entry key="M5" value="15.06214479615048" />
-      <entry key="M10" value="40.92151831742819" />
-      <entry key="M15" value="71.46356372422457" />
-      <entry key="M30" value="158.40892888738065" />
-      <entry key="H1" value="273.3574229848152" />
-      <entry key="H2" value="377.09070988207725" />
-      <entry key="H4" value="454.0792561347904" />
-      <entry key="D1" value="1019.4092835274207" />
-      <entry key="W1" value="1639.970059932893" />
-    </decayedCancelled>
-    <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="2.2369378697338795E-149" />
-      <entry key="S5" value="3.6250155421393917E-60" />
-      <entry key="S10" value="2.4256403459724854E-30" />
-      <entry key="S30" value="2.819938605842096E-10" />
-      <entry key="S60" value="4.111157090130803E-5" />
-      <entry key="M2" value="0.021689529795517134" />
-      <entry key="M5" value="1.2299398803527848" />
-      <entry key="M10" value="5.7427148190595165" />
-      <entry key="M15" value="11.289122037640514" />
-      <entry key="M30" value="29.450801650046714" />
-      <entry key="H1" value="56.89862609893234" />
-      <entry key="H2" value="83.48727484248461" />
-      <entry key="H4" value="103.6885815297855" />
-      <entry key="D1" value="225.40877011424402" />
-      <entry key="W1" value="351.7447871624584" />
-    </decayedSelected>
-    <decayedShown>
-      <entry key="MS100" value="5.276083758877018E-10" />
-      <entry key="MS500" value="0.019490563126138095" />
-      <entry key="S2" value="1.345583737256588" />
-      <entry key="S5" value="3.574981328830491" />
-      <entry key="S10" value="4.992979961225418" />
-      <entry key="S30" value="6.257179271339669" />
-      <entry key="S60" value="6.7252201908643805" />
-      <entry key="M2" value="7.543054942200121" />
-      <entry key="M5" value="16.27264205162439" />
-      <entry key="M10" value="46.63799451675421" />
-      <entry key="M15" value="82.72081869491156" />
-      <entry key="M30" value="187.81971820114552" />
-      <entry key="H1" value="330.21770237513886" />
-      <entry key="H2" value="460.5498581673147" />
-      <entry key="H4" value="557.7503793680273" />
-      <entry key="D1" value="1244.8120493046945" />
-      <entry key="W1" value="1991.713536422593" />
-    </decayedShown>
-  </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 2,
-  &quot;fromUser&quot;: false
-}</component>
-  <component name="ProjectId" id="3FNPl2gJq7L5ulhwQGl06ZOS1cz" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Project.HabitTracker.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "node.js.selected.package.tslint": "(autodetect)"
   }
-}</component>
-  <component name="RunManager">
-    <configuration name="HabitTracker" type="DotNetProject" factoryName=".NET Project">
-      <option name="EXE_PATH" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="PASS_PARENT_ENVS" value="1" />
-      <option name="ENV_FILE_PATHS" value="" />
-      <option name="REDIRECT_INPUT_PATH" value="" />
-      <option name="MIXED_MODE_DEBUG" value="0" />
-      <option name="USE_MONO" value="0" />
-      <option name="RUNTIME_ARGUMENTS" value="" />
-      <option name="AUTO_ATTACH_CHILDREN" value="0" />
-      <option name="PROJECT_PATH" value="$PROJECT_DIR$/HabitTracker/HabitTracker.csproj" />
-      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
-      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
-      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
-      <option name="PROJECT_KIND" value="DotNetCore" />
-      <option name="PROJECT_TFM" value="" />
-      <method v="2">
-        <option name="Build" />
-      </method>
-    </configuration>
-  </component>
+}]]></component>
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="524b322b-b213-46fc-810e-8b498f4091df" name="Changes" comment="" />
-      <created>1781912700954</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1781912700954</updated>
-      <workItem from="1781912702211" duration="3398000" />
-      <workItem from="1781917054884" duration="5390000" />
-      <workItem from="1782003493309" duration="903000" />
-      <workItem from="1782004410586" duration="980000" />
-      <workItem from="1782005533442" duration="263000" />
-      <workItem from="1782005814394" duration="105000" />
-      <workItem from="1782006687758" duration="2252000" />
-      <workItem from="1782009876688" duration="1216000" />
-      <workItem from="1782081424865" duration="6249000" />
-      <workItem from="1782156001208" duration="16925000" />
-      <workItem from="1782579630799" duration="4152000" />
-    </task>
     <servers />
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
-  </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
-  <component name="VcsManagerConfiguration">
-    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
-          <properties exception="System.OperationCanceledException" breakIfHandledByOtherCode="false" displayValue="System.OperationCanceledException" />
-          <option name="timeStamp" value="1" />
-        </breakpoint>
-        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
-          <properties exception="System.Threading.Tasks.TaskCanceledException" breakIfHandledByOtherCode="false" displayValue="System.Threading.Tasks.TaskCanceledException" />
-          <option name="timeStamp" value="2" />
-        </breakpoint>
-        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
-          <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
-          <option name="timeStamp" value="3" />
-        </breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
-  </component>
 </project>
