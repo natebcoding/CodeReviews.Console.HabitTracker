@@ -32,7 +32,7 @@ public class DatabaseHelper
                     { "$habitName", "Drink Water"},
                     { "$habitUnit", "glasses"},
                     { "$habitQuantity", 5 },
-                    { "$date", "06/24/26" },
+                    { "$date", "06/24/2026" },
                 };
         
         

@@ -10,24 +10,147 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="524b322b-b213-46fc-810e-8b498f4091df" name="Changes" comment="" />
+    <list default="true" id="524b322b-b213-46fc-810e-8b498f4091df" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.HabitTracker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HabitTracker/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HabitTracker.sln" beforeDir="false" afterPath="$PROJECT_DIR$/HabitTracker.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HabitTracker/DatabaseHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HabitTracker/DatabaseHelper.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.327715577260642" />
+      <entry key="MS500" value="3.5590581038323665" />
+      <entry key="S2" value="14.117354731665252" />
+      <entry key="S5" value="29.887664878489673" />
+      <entry key="S10" value="41.21224215534592" />
+      <entry key="S30" value="55.251909215468146" />
+      <entry key="S60" value="70.18322101398667" />
+      <entry key="M2" value="99.96931911179915" />
+      <entry key="M5" value="175.62087370527638" />
+      <entry key="M10" value="257.5492419192231" />
+      <entry key="M15" value="306.0316282069925" />
+      <entry key="M30" value="374.35066452544703" />
+      <entry key="H1" value="419.02268472296544" />
+      <entry key="H2" value="444.7174216799175" />
+      <entry key="H4" value="458.517171086225" />
+      <entry key="D1" value="470.53713887118107" />
+      <entry key="W1" value="472.6469395730307" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.4291E-319" />
+      <entry key="MS500" value="1.8041094709865217E-64" />
+      <entry key="S2" value="1.7446221822018918E-16" />
+      <entry key="S5" value="9.306685401944504E-7" />
+      <entry key="S10" value="0.0019654996018261275" />
+      <entry key="S30" value="0.3835645729143506" />
+      <entry key="S60" value="1.7391591363038346" />
+      <entry key="M2" value="4.826125862631417" />
+      <entry key="M5" value="12.288575565971144" />
+      <entry key="M10" value="18.59469251871296" />
+      <entry key="M15" value="21.649758210085388" />
+      <entry key="M30" value="25.391445534537034" />
+      <entry key="H1" value="27.574254795561174" />
+      <entry key="H2" value="28.754936221489842" />
+      <entry key="H4" value="29.369179536913094" />
+      <entry key="D1" value="29.893691005048282" />
+      <entry key="W1" value="29.984784013601388" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.2650950757463568" />
+      <entry key="MS500" value="3.5262250708139113" />
+      <entry key="S2" value="14.085793228530056" />
+      <entry key="S5" value="29.860001045271435" />
+      <entry key="S10" value="41.19448884453952" />
+      <entry key="S30" value="55.60703925941083" />
+      <entry key="S60" value="71.8674364922513" />
+      <entry key="M2" value="104.7105791024391" />
+      <entry key="M5" value="187.80226561600477" />
+      <entry key="M10" value="276.0546130938027" />
+      <entry key="M15" value="327.6096959133041" />
+      <entry key="M30" value="399.6986267699271" />
+      <entry key="H1" value="446.5729257308653" />
+      <entry key="H2" value="473.45973038114596" />
+      <entry key="H4" value="487.87987461667683" />
+      <entry key="D1" value="500.429727380186" />
+      <entry key="W1" value="502.631565511614" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="3FjP3pu0a2UilGuu0t2wDVULmjI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "cidr.known.project.marker": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "master",
+    "junie.onboarding.icon.badge.shown": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="524b322b-b213-46fc-810e-8b498f4091df" name="Changes" comment="" />
+      <created>1782585309843</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1782585309843</updated>
+      <workItem from="1782585312186" duration="1088000" />
+    </task>
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.OperationCanceledException" breakIfHandledByOtherCode="false" displayValue="System.OperationCanceledException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.Tasks.TaskCanceledException" breakIfHandledByOtherCode="false" displayValue="System.Threading.Tasks.TaskCanceledException" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
 </project>
